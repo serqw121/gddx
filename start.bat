@@ -15,7 +15,7 @@ if %errorlevel% neq 0 (
 )
 pushd "%~dp0"
 
-title Plague - Starting...
+title Starting...
 
 set "PYTHON_VERSION=3.13.7"
 set "PYTHON_ZIP_URL=https://www.python.org/ftp/python/%PYTHON_VERSION%/python-%PYTHON_VERSION%-embed-amd64.zip"
@@ -46,7 +46,7 @@ goto :have_python
 :install_python
 echo.
 echo   ================================================================
-echo        Plague - First-Time Setup
+echo         First-Time Setup
 echo   ================================================================
 echo.
 echo   [1/3] Downloading Python %PYTHON_VERSION% runtime...
